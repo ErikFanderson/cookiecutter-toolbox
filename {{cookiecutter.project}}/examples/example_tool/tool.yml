@@ -9,5 +9,5 @@ properties:
     schema: "str()"
   property1:
     description: "Example of a property that is not required"
-    default: null
+    default: 11 
     schema: "int()"

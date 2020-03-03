@@ -1,0 +1,6 @@
+# Define jobs that can be run
+jobs: 
+  example_job: [{tool: ExampleTool}]
+
+# Define tool properties
+tools.ExampleTool.property0: "property0" 

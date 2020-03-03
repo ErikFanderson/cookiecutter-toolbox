@@ -18,3 +18,7 @@ type:
 # Runs all tests in tests directory 
 test:
 	pytest
+
+# Runs example
+example:
+	toolbox-cli -c examples/example_config.yml -t examples/example_tools.yml example_job
