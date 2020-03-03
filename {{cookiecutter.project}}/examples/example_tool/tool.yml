@@ -1,0 +1,13 @@
+# Name must match the class name in __init__.py
+name: ExampleTool 
+
+# Dictionary containg all properties/attributes required by the tool
+properties:
+  property0:
+    description: "Example of a required property"
+    default: null 
+    schema: "str()"
+  property1:
+    description: "Example of a property that is not required"
+    default: null
+    schema: "int()"
