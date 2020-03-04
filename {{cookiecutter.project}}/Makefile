@@ -17,7 +17,7 @@ type:
 
 # Runs all tests in tests directory 
 test:
-	pytest --ignore=$(TOOLBOX_HOME)/tests
+	pytest -v --ignore=$(TOOLBOX_HOME)/tests
 
 # Runs example
 example:
